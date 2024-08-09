@@ -320,6 +320,16 @@ int combi(int n,int r)
         return 1;
     return 0;
 }*/
+/*int main()
+{
+    char str[]="Hello";
+    int i;
+    for(i=0;str[i];i++)
+        if(str[i]>97)
+            str[i]-=32;
+    printf("%s",str);
+    return 0;
+}*/
 void sortStr(char city[][20],int size)
 {
     char s[10];
