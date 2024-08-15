@@ -325,7 +325,7 @@ int combi(int n,int r)
     char str[]="Hello";
     int i;
     for(i=0;str[i];i++)
-        if(str[i]>97)
+        if(str[i]>96)
             str[i]-=32;
     printf("%s",str);
     return 0;
